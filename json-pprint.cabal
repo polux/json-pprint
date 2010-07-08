@@ -1,0 +1,16 @@
+Name:                json-pprint
+Version:             1.0
+Synopsis:            pretty print json values
+License:             BSD3
+License-file:        LICENSE
+Author:              Paul Brauner
+Maintainer:          polux2001@gmail.com
+Copyright:           Paul Brauner 2010 
+Category:            Development
+Build-type:          Simple
+Cabal-version:       >=1.2
+
+Executable json-pprint
+  Main-is:        Main.hs 
+  Build-depends:  base >= 4.0, json >= 0.4.4, pretty >= 1.0.1.1
+  
